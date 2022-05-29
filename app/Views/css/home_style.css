@@ -1,0 +1,24 @@
+body{ 
+    display:flex; 
+    flex-direction:column;
+}
+
+.grid-search-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin: 25px;
+}
+
+.title{
+    grid-column: 1 / span 2;
+}
+
+.inputSearch{
+    grid-column: 3 / span 4;
+}
+
+.searchVidBtn {
+    grid-column: 7;
+    margin-left: 15px;
+}

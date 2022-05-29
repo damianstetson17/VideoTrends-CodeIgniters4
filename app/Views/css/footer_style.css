@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.footer-container p {
+    font-size: xx-large;
+    color: white;
+}
+
+.footer-container a {
+    color: white;
+    padding: 10px;
+}

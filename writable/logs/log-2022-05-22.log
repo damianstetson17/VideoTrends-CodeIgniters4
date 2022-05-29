@@ -1,0 +1,156 @@
+CRITICAL - 2022-05-22 00:01:37 --> Trying to access array offset on value of type bool
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'L:\\xampp\\htdocs...', 25)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 00:07:21 --> Undefined constant "App\Controllers\id"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 00:07:53 --> Undefined constant "App\Controllers\id"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 00:09:25 --> Undefined constant "App\Controllers\id"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 00:10:11 --> Undefined constant "App\Controllers\name"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 00:10:24 --> Array to string conversion
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'L:\\xampp\\htdocs...', 29)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 00:10:32 --> syntax error, unexpected variable "$c"
+#0 L:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RegisterControl...')
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RegisterControl...')
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 00:10:42 --> Undefined array key 3
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'L:\\xampp\\htdocs...', 29)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 00:11:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-22 00:14:44 --> Undefined variable $country
+#0 L:\xampp\htdocs\test4\app\Views\register.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 68)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(25): view('register', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 01:46:30 --> Undefined constant "App\Controllers\hola"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 02:29:52 --> syntax error, unexpected token ";", expecting "]"
+#0 L:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RegisterControl...')
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RegisterControl...')
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 02:31:10 --> Undefined array key 0
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'L:\\xampp\\htdocs...', 37)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 02:33:22 --> Undefined array key 0
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'L:\\xampp\\htdocs...', 37)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 02:35:33 --> Trying to access array offset on value of type null
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'L:\\xampp\\htdocs...', 52)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 02:36:42 --> Trying to access array offset on value of type null
+#0 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'L:\\xampp\\htdocs...', 51)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-22 02:37:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+CRITICAL - 2022-05-22 02:37:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ LIMIT 1' at line 3
+#0 L:\xampp\htdocs\test4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 L:\xampp\htdocs\test4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 L:\xampp\htdocs\test4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 L:\xampp\htdocs\test4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 L:\xampp\htdocs\test4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 L:\xampp\htdocs\test4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(51): CodeIgniter\BaseModel->first()
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#8 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#9 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-22 02:45:42 --> Call to a member function listErrors() on string
+#0 L:\xampp\htdocs\test4\system\View\View.php(210): include()
+#1 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#3 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(66): view('login', Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 02:48:52 --> syntax error, unexpected token "echo"
+#0 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(66): view('login', Array)
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->registration()
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 02:54:22 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-22 02:57:53 --> Undefined variable $countries
+#0 L:\xampp\htdocs\test4\app\Views\register.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 61)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\Home.php(18): view('register', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

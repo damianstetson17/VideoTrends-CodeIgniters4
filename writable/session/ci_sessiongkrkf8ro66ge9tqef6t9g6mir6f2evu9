@@ -1,0 +1,38 @@
+__ci_last_regenerate|i:1653353629;_ci_previous_url|s:32:"http://localhost/index.php/login";header|s:619:"<!-- DEBUG-VIEW START 1 APPPATH\Views\templates\header.php -->
+<header class="header-container">
+    <a href="/">
+        <img src="img/logo_videoTrend.png" alt="VideoTrend" width="34" height="34">
+    </a>
+    <a href="/">
+        <h1>VideoTrend</h1>
+    </a>
+    <h4>Mira tus videos de Youtube como quieras</h4>
+</header>
+<nav class="navbar-container">
+    <a href="/register">
+        Crear una Cuenta |
+    </a>
+    <a href="/">
+        Olvide mi contraseña
+    </a>
+    <a href="/">
+        | Acerca de Nosotros
+    </a>
+</nav>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\templates\header.php -->
+";footer|s:451:"<!-- DEBUG-VIEW START 2 APPPATH\Views\templates\footer.php -->
+<footer class="footer-container">
+    <p>
+        <a href="https://www.youtube.com">Youtube</a>
+    </p>
+    <p> - </p>
+    <p>
+        <a href="https://www.ugd.edu.ar/">U.G.D.</a>
+    </p>
+    <p> - </p>
+    <p>
+        <a href="https://campusvirtual.ugd.edu.ar/moodle/">Campus Virtual</a>
+    </p>
+</footer>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\Views\templates\footer.php -->
+";user_id|s:1:"8";user_email|s:25:"damianstetson17@gmail.com";profile_id|s:1:"8";profile_name|s:14:"Damian STETSON";success|s:27:"Se ha registrado con exito.";

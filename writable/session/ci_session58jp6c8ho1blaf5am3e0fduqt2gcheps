@@ -1,0 +1,16 @@
+__ci_last_regenerate|i:1653789411;footer|s:451:"<!-- DEBUG-VIEW START 3 APPPATH\Views\templates\footer.php -->
+<footer class="footer-container">
+    <p>
+        <a href="https://www.youtube.com">Youtube</a>
+    </p>
+    <p> - </p>
+    <p>
+        <a href="https://www.ugd.edu.ar/">U.G.D.</a>
+    </p>
+    <p> - </p>
+    <p>
+        <a href="https://campusvirtual.ugd.edu.ar/moodle/">Campus Virtual</a>
+    </p>
+</footer>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\templates\footer.php -->
+";user_id|s:2:"24";user_email|s:25:"damianstetson17@gmail.com";profile_id|s:2:"18";profile_name|s:14:"Damian stetsom";_ci_previous_url|s:31:"http://localhost/index.php/home";

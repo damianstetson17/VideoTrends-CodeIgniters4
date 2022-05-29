@@ -1,0 +1,538 @@
+CRITICAL - 2022-05-21 16:16:30 --> Undefined variable $users
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\Home.php(11): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:16:53 --> syntax error, unexpected variable "$session"
+#0 X:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('UserController')
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('UserController')
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:17:08 --> syntax error, unexpected variable "$session"
+#0 X:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('UserController')
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('UserController')
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:17:13 --> syntax error, unexpected token "}"
+#0 X:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('UserController')
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('UserController')
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:20:21 --> Undefined variable $session
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\UserController.php(16): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:22:07 --> Undefined variable $session
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\UserController.php(16): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:22:08 --> Undefined variable $session
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\UserController.php(16): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:22:22 --> Undefined variable $session
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\UserController.php(16): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:25:56 --> Undefined variable $session
+#0 X:\xampp\htdocs\test4\app\Views\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 34)
+#1 X:\xampp\htdocs\test4\system\View\View.php(210): include('X:\\xampp\\htdocs...')
+#2 X:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 X:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 X:\xampp\htdocs\test4\app\Controllers\UserController.php(16): view('login', Array)
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 16:30:52 --> syntax error, unexpected token "->"
+#0 X:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('UserController')
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('UserController')
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:44:21 --> Undefined variable $user
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 24)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:44:56 --> Undefined variable $user
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 24)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:45:37 --> Undefined variable $user
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'X:\\xampp\\htdocs...', 24)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:46:12 --> syntax error, unexpected variable "$user", expecting "function" or "const"
+#0 X:\xampp\htdocs\test4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('UserController')
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('UserController')
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:46:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 16:47:38 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(28): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:51:50 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(28): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:53:59 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 16:56:38 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(28): count(Object(App\Models\UserModel))
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:57:27 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(28): count(Object(App\Models\UserModel))
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 16:58:46 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\UserModel given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(28): count(Object(App\Models\UserModel))
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:00:25 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:16:22 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:18:04 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:18:15 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:18:53 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:20:33 --> Cannot use object of type App\Models\UserModel as array
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:22:02 --> Call to undefined method App\Models\UserModel::getResultArray
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Model->__call('getResultArray', Array)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:22:58 --> Call to undefined method App\Models\UserModel::getResultArray
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Model->__call('getResultArray', Array)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:23:31 --> Object of class App\Models\UserModel could not be converted to string
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:28:56 --> Call to undefined method App\Models\UserModel::firt
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Model->__call('firt', Array)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:29:27 --> Call to undefined method App\Models\UserModel::firt
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Model->__call('firt', Array)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:45:30 --> syntax error, unexpected variable "$show"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:46:08 --> syntax error, unexpected variable "$show"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:46:28 --> syntax error, unexpected variable "$show"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:46:54 --> Call to undefined function App\Controllers\orderby()
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 17:51:02 --> syntax error, unexpected single-quoted string "password", expecting ")"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:51:34 --> syntax error, unexpected single-quoted string "password", expecting "]"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:55:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 X:\xampp\htdocs\test4\app\Controllers\UserController.php(30): count(NULL)
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 17:59:23 --> syntax error, unexpected token "echo", expecting ";"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 17:59:43 --> syntax error, unexpected token "echo", expecting ";"
+#0 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('X:\\xampp\\htdocs...')
+#1 X:\xampp\htdocs\test4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 X:\xampp\htdocs\test4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 X:\xampp\htdocs\test4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 18:01:35 --> Class "App\Controllers\Session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 18:01:53 --> Class "App\Controllers\session" not found
+#0 X:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 X:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 X:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 X:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 21:35:55 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in L:\xampp\htdocs\test4\app\Controllers\UserController.php on line 33
+#0 L:\xampp\htdocs\test4\app\Controllers\UserController.php(33): CodeIgniter\HTTP\RedirectResponse->to('login', Array)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 21:37:33 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in L:\xampp\htdocs\test4\app\Controllers\UserController.php on line 35
+#0 L:\xampp\htdocs\test4\app\Controllers\UserController.php(35): CodeIgniter\HTTP\RedirectResponse->to('login', Array)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 21:37:45 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in L:\xampp\htdocs\test4\app\Controllers\UserController.php on line 35
+#0 L:\xampp\htdocs\test4\app\Controllers\UserController.php(35): CodeIgniter\HTTP\RedirectResponse->to('login', Array)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 21:39:49 --> Undefined variable $header
+#0 L:\xampp\htdocs\test4\app\Views\login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 18)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\UserController.php(37): view('login', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 21:47:00 --> validateUser is not a valid rule.
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdasdasdasdasd...', Array, Array)
+#2 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 21:47:51 --> validateUser is not a valid rule.
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdasdasdasdasd...', Array, Array)
+#2 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 21:47:58 --> validateUser is not a valid rule.
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdasdadasdasda...', Array, Array)
+#2 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 21:51:38 --> Class "App\Validations\UserRules" not found
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 21:52:30 --> Class "Config\UserRules" not found
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 21:54:16 --> Undefined array key "psw"
+#0 L:\xampp\htdocs\test4\app\Validations\UserRules.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'L:\\xampp\\htdocs...', 15)
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(292): App\Validations\UserRules->validateUser('asdasdasdasdasd...', 'email,psw', Array, NULL)
+#2 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdasdasdasdasd...', Array, Array)
+#3 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 21:55:08 --> Cannot use object of type App\Models\UserModel as array
+#0 L:\xampp\htdocs\test4\system\Validation\Validation.php(292): App\Validations\UserRules->validateUser('asdadadasdasdas...', 'email,password', Array, NULL)
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'asdadadasdasdas...', Array, Array)
+#2 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 22:24:48 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 L:\xampp\htdocs\test4\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('damianstetson@g...', 'insert')
+#1 L:\xampp\htdocs\test4\system\Model.php(625): CodeIgniter\BaseModel->insert('damianstetson@g...', false)
+#2 L:\xampp\htdocs\test4\system\BaseModel.php(658): CodeIgniter\Model->insert('damianstetson@g...', false)
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->save('damianstetson@g...', 'culo')
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 22:27:28 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 L:\xampp\htdocs\test4\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('damianstetson@g...', 'insert')
+#1 L:\xampp\htdocs\test4\system\Model.php(625): CodeIgniter\BaseModel->insert('damianstetson@g...', false)
+#2 L:\xampp\htdocs\test4\system\BaseModel.php(658): CodeIgniter\Model->insert('damianstetson@g...', false)
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->save('damianstetson@g...', 'culo')
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 22:29:06 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 L:\xampp\htdocs\test4\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('damianstetson@g...', 'insert')
+#1 L:\xampp\htdocs\test4\system\Model.php(625): CodeIgniter\BaseModel->insert('damianstetson@g...', false)
+#2 L:\xampp\htdocs\test4\system\BaseModel.php(658): CodeIgniter\Model->insert('damianstetson@g...', false)
+#3 L:\xampp\htdocs\test4\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->save('damianstetson@g...', 'culo')
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 22:29:46 --> Undefined variable $result
+#0 L:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 26)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:31:28 --> Undefined array key "email"
+#0 L:\xampp\htdocs\test4\app\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'L:\\xampp\\htdocs...', 26)
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:33:49 --> Trying to access array offset on value of type null
+#0 L:\xampp\htdocs\test4\app\Validations\UserRules.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'L:\\xampp\\htdocs...', 14)
+#1 L:\xampp\htdocs\test4\system\Validation\Validation.php(292): App\Validations\UserRules->validateUser('sdfdsfsdfsdf', 'email,password', Array, NULL)
+#2 L:\xampp\htdocs\test4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sdfdsfsdfsdf', Array, Array)
+#3 L:\xampp\htdocs\test4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 L:\xampp\htdocs\test4\app\Controllers\UserController.php(23): CodeIgniter\Controller->validate(Array, Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 23:53:19 --> Undefined variable $countries
+#0 L:\xampp\htdocs\test4\app\Views\register.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 67)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\Home.php(18): view('register', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 23:54:04 --> Undefined constant "App\Controllers\countries"
+#0 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#1 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#2 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 23:56:20 --> Undefined variable $header
+#0 L:\xampp\htdocs\test4\app\Views\register.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'L:\\xampp\\htdocs...', 34)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(23): view('register', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 23:57:35 --> Undefined constant "id"
+#0 L:\xampp\htdocs\test4\system\View\View.php(210): include()
+#1 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(25): view('register', Array)
+#4 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 23:58:27 --> Array to string conversion
+#0 L:\xampp\htdocs\test4\app\Views\register.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'L:\\xampp\\htdocs...', 68)
+#1 L:\xampp\htdocs\test4\system\View\View.php(210): include('L:\\xampp\\htdocs...')
+#2 L:\xampp\htdocs\test4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 L:\xampp\htdocs\test4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#4 L:\xampp\htdocs\test4\app\Controllers\RegisterController.php(25): view('register', Array)
+#5 L:\xampp\htdocs\test4\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 L:\xampp\htdocs\test4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 L:\xampp\htdocs\test4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 L:\xampp\htdocs\test4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 23:58:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-21 23:59:20 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
